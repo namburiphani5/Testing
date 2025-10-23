@@ -3,7 +3,7 @@ description: Create a new test case
 title: "[Test Case] <Title>"
 labels: [test-case]
 body:
-   - type: input
+  - type: input
     id: module
     attributes:
       label: Module
