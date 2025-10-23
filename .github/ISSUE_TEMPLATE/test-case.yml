@@ -7,16 +7,19 @@ body:
     id: id
     attributes:
       label: Test Case ID
+      placeholder: Enter a unique ID
   - type: input
     id: module
     attributes:
       label: Module
+      placeholder: Enter module name
   - type: textarea
     id: steps
     attributes:
       label: Steps to Execute
+      placeholder: Describe the steps clearly
   - type: input
     id: expected
     attributes:
       label: Expected Result
-``
+      placeholder: What should happen?
