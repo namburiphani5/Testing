@@ -1,17 +1,13 @@
 name: Test Case
 description: Create a new test case
+title: "Title of test case"
 labels: [test-case]
 body:
-  - type: input
-    id: title
+  - type: textarea
+    id: precondition
     attributes:
-      label: Title
-      placeholder: Enter test case title
-  - type: input
-    id: module
-    attributes:
-      label: Module
-      placeholder: Enter module name
+      label: Pre-Condition
+      placeholder: Mention Pre-Condtion steps needed to execute this case
   - type: textarea
     id: steps
     attributes:
@@ -22,3 +18,13 @@ body:
     attributes:
       label: Expected Result
       placeholder: What should happen?
+  - type: dropdown
+    id: priority
+    attributes:
+      label: "Priority"
+      options:
+        - "1"
+        - "2"
+        - "3"
+   validations:
+     required: true
