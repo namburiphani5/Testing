@@ -28,3 +28,18 @@ body:
         - "3"
     validations:
       required: true
+  - type: dropdown
+    id: execution_status
+    attributes:
+      label: Execution Status
+    description: Select the current execution status of the test case.
+      options:
+        - Not Executed
+        - Passed
+        - Failed
+        - Blocked
+        - In Progress
+        - Skipped
+    default: Not Executed
+    validations:
+      required: true
