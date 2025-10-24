@@ -1,6 +1,6 @@
 name: Test Case
 description: Create a new test case
-title:
+title: "Title of test case"
 labels: [test-case]
 body:
   - type: input
