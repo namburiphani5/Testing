@@ -40,6 +40,6 @@ body:
         - Blocked
         - In Progress
         - Skipped
-      default: In Progress
+      default: 4
     validations:
       required: true
