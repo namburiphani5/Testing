@@ -1,8 +1,12 @@
 name: Test Case
 description: Create a new test case
-title: "Title of test case"
 labels: [test-case]
 body:
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      placeholder: Enter test case title
   - type: input
     id: module
     attributes:
