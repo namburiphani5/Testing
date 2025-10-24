@@ -8,26 +8,30 @@ body:
     attributes:
       label: Pre-Condition
       placeholder: Mention Pre-Condition steps needed to execute this case
+
   - type: textarea
     id: steps
     attributes:
       label: Steps to Execute
       placeholder: Describe the steps clearly
+
   - type: textarea
     id: expected
     attributes:
       label: Expected Result
       placeholder: What should happen?
+
   - type: dropdown
     id: priority
     attributes:
-      label: "Priority"
+      label: Priority
       options:
         - "1"
         - "2"
         - "3"
     validations:
       required: true
+
   - type: dropdown
     id: execution_status
     attributes:
@@ -40,6 +44,6 @@ body:
         - Blocked
         - In Progress
         - Skipped
-    default: Not Executed
+      default: Not Executed
     validations:
       required: true
