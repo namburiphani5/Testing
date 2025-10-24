@@ -40,6 +40,5 @@ body:
         - Blocked
         - In Progress
         - Skipped
-      default: Not Executed
     validations:
       required: true
