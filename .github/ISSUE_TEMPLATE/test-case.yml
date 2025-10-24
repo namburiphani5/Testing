@@ -26,6 +26,7 @@ body:
         - "1"
         - "2"
         - "3"
+      default: "1"
     validations:
       required: true
   - type: dropdown
