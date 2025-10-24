@@ -1,7 +1,7 @@
 name: Test Case
 description: Create a new test case
 title: "Title of test case"
-labels: [test-case][test-case: not executed][test-case: priority-1]
+labels: [test-case],[test-case: not executed],[test-case: priority-1]
 body:
   - type: textarea
     id: precondition
