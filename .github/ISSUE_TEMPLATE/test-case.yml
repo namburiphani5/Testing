@@ -7,13 +7,13 @@ body:
     id: precondition
     attributes:
       label: Pre-Condition
-      placeholder: Mention Pre-Condtion steps needed to execute this case
+      placeholder: Mention Pre-Condition steps needed to execute this case
   - type: textarea
     id: steps
     attributes:
       label: Steps to Execute
       placeholder: Describe the steps clearly
-  - type: input
+  - type: testarea
     id: expected
     attributes:
       label: Expected Result
