@@ -13,7 +13,7 @@ body:
     attributes:
       label: Steps to Execute
       placeholder: Describe the steps clearly
-  - type: testarea
+  - type: textarea
     id: expected
     attributes:
       label: Expected Result
