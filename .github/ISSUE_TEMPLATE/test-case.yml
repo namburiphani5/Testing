@@ -26,6 +26,7 @@ body:
         - "1"
         - "2"
         - "3"
+      default: 2
     validations:
       required: true
   - type: dropdown
@@ -40,6 +41,6 @@ body:
         - Blocked
         - In Progress
         - Skipped
-      default: 4
+      default: 1
     validations:
       required: true
